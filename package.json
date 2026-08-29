@@ -70,5 +70,10 @@
 	"lint-staged": {
 		"*.js, tsx": "npm run lint",
 		"*.{js,css,md,html,json,jsx,tsx,ts}": "npm run format"
+	},
+	"allowScripts": {
+		"core-js@3.40.0": true,
+		"core-js-pure@3.40.0": true,
+		"fsevents@2.3.3": true
 	}
 }
